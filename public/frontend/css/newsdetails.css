@@ -1,0 +1,118 @@
+@media (max-width: 600px) {
+    .row a img{
+        padding-bottom: 5px;
+    }
+
+}
+#news-details h4{
+    border-bottom: solid 3px #ff9969;
+    color: #ff9969;
+    padding: 10px;
+    font-size: 20px;
+}
+#news-details p{
+    padding: 0px 10px 0px 10px;
+    font-size: 17px;
+    font-style: normal;
+}
+
+#comment-box.row  h4{
+    border-bottom: solid 3px #ff9969;
+    padding: 10px;
+    color: #ff9969;
+    font-size: 20px;
+}
+#comment-box.row header{
+    color: #0277bd;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-weight: 500;
+    font-size: 16px;
+}
+#comment-box small{
+    margin-left: 5px;
+    font-size: 14px;
+    color: black;
+}
+#comment-box p{
+    padding-left: 10px;
+    font-size: 16px;
+    color: black;
+
+}
+#comment-box .row .center-btn{
+    text-align: center;
+    padding: 10px;
+
+}
+#comment-box .row .center-btn .btn{
+    background: teal;
+    color: aliceblue;
+    box-shadow: none;
+    font-size: 15px;
+}
+#comment-box .row a.btn{
+    box-shadow: none;
+    color: aliceblue;
+    background: teal;
+    font-size: 15px;
+}
+
+#news-details a.btn{
+    margin-top: -7px;
+    height: 35px;
+    box-shadow: none;
+    background: teal;
+}
+#news-details a.btn:hover{
+    background: teal;
+}
+@media (min-width: 320px) and (max-width: 440px){
+    #news-details a.btn{
+        margin-top: -5px;
+        height: 35px;
+        box-shadow: none;
+        background: teal;
+        font-size: 11px;
+        width: 137px;
+    }
+}
+#few-details header{
+    color: #0277bd;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 18px;
+}
+#few-details small{
+    font-size: 14px;
+    margin-left: 10px;
+    color: black;
+}
+#few-details small a{
+    color: #ff9969;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: auto;
+}
+
+#few-details.row p{
+    padding-left: 10px;
+    maragin: 15px;
+    font-size: 16px;
+}
+#few-details p a{
+    color: #ff9969;
+    font-size: 15px;
+    font-weight: 500;
+}
+#link a.right{
+    margin-top: 10px;
+    font-size: 16px;
+    color: #ff9969;
+
+}
+#ads a img.responsive-img{
+    margin-top: 1.21rem;
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -1,0 +1,165 @@
+/*============================ article tabs starts ==========================*/
+@media (max-width: 600px) {
+    .row a img{
+        padding-bottom: 5px;
+    }
+
+}
+.row h4{
+    border-bottom: solid 3px #ff9969;
+    padding: 10px;
+    color: #ff9969;
+    font-size: 20px;
+}
+#article.row header{
+    color: #0277bd;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 18px;
+}
+#article a.btn{
+    margin-top: -7px;
+    height: 35px;
+    box-shadow: none;
+    background: teal;
+    float: right;
+}
+#article a.btn:hover{
+    background: teal;
+}
+@media (min-width: 320px) and (max-width: 440px){
+    #article h4 a.btn{
+        margin-top: -5px;
+        height: 35px;
+        box-shadow: none;
+        background: teal;
+        width: 120px;
+    }
+}
+#article .row small{
+    font-size: 14px;
+    margin-left: 10px;
+    color: black;
+}
+#article .row small a{
+    color: #ff9969;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: auto;
+}
+#article.row p{
+    padding-left: 10px;
+    maragin: 15px;
+    font-size: 16px;
+}
+#article.row p a{
+    color: #ff9969;
+    font-size: 15px;
+    font-weight: 500;
+}
+#link.row a.right{
+    margin-top: 10px;
+    font-size: 16px;
+    color: #ff9969;
+
+}
+
+.row #sub-header header{
+    color: #0277bd;
+    padding: 10px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.row #sub-header p{
+    padding-left: 15px;
+    margin: 5px;
+    font-size: 16px;
+}
+.row li{
+    list-style-type: none !important;
+    margin-right: 10px;
+}
+#ads a img.responsive-img{
+    margin-top: 1.21rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*========================== article tabs end ==========================*/
+/*.section a{
+    color: #ff9969;
+    font-size: 20px;
+    font-weight: 500;
+}
+.section a i{
+    padding: 5px 5px 5px 0px;
+    font-size: 20px;
+    font-weight: 500;
+}*/
+/*================================== Stylesheet for Pagination ========================*/
+.container .pagination{
+    background: #fafafa;
+}
+
+.container .pagination a.active{
+    background: #0277bd;
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 16px;
+
+}
+.container .pagination a:hover{
+    background: #0277bd;
+    color: aliceblue;
+}
+.container .pagination a{
+    color: #ff9969;
+    font-weight: 600;
+    font-size: 14px;
+}
+/*====================================== Pagination ends ================================*/
+
+/*================================== stylesheets for comment box =============*/
+#comment-box.row  h4{
+    border-bottom: solid 3px #ff9969;
+    padding: 10px;
+    color: #ff9969;
+    font-size: 20px;
+}
+#comment-box.row header{
+    color: #0277bd;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-weight: 500;
+    font-size: 16px;
+}
+#comment-box.row header small{
+    margin-left: 5px;
+    font-size: 14px;
+    color: black;
+}
+#comment-box.row p{
+    padding-left: 10px;
+    font-size: 16px;
+
+}
+#comment-box .row .center-btn{
+    text-align: center;
+    padding: 10px;
+
+}
+#comment-box .row .center-btn .btn{
+    background: teal;
+    color: aliceblue;
+    box-shadow: none;
+    font-size: 15px;
+}
+#comment-box .row a.btn{
+    box-shadow: none;
+    color: aliceblue;
+    background: teal;
+    font-size: 15px;
+}
+
+/*================================ Comment-box ends Here ==============================*/
+
+/*================================= Stylesheets for recent articles ===================*/

@@ -1,0 +1,65 @@
+/*========================== vacancy tabs starts ==========================*/
+@media (max-width: 600px) {
+    .row a img{
+        padding-bottom: 5px;
+    }
+
+}
+#vacancy h4{
+    border-bottom: solid 3px #ff9969;
+    color: #ff9969;
+    padding: 10px;
+    font-size: 20px;
+}
+
+@media (max-width: 440px){
+    #vacancy h4{
+        font-size: 16px;
+    }
+}
+#vacancy header{
+    color: #0277bd;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 18px;
+}
+#vacancy small{
+    font-size: 14px;
+    padding: 10px;
+    color: #ff9969;
+}
+#vacancy p{
+    padding-left: 10px;
+    maragin: 15px;
+    font-size: 16px;
+}
+#vacancy a.btn{
+    margin-top: -7px;
+    height: 35px;
+    box-shadow: none;
+    background: teal;
+}
+#vacancy a.btn:hover{
+    background: teal;
+}
+@media (min-width: 320px) and (max-width: 440px){
+    #vacancy a.btn{
+        margin-top: -5px;
+        height: 35px;
+        box-shadow: none;
+        background: teal;
+        font-size: 11px;
+        width: 137px;
+    }
+}
+#link.row a.right{
+    margin-top: 10px;
+    font-size: 16px;
+    color: #ff9969;
+
+}
+#ads a img.responsive-img{
+    margin-top: 1.21rem;
+    margin-left: auto;
+    margin-right: auto;
+}

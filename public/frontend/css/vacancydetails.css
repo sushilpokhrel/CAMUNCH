@@ -1,0 +1,68 @@
+@media (max-width: 600px) {
+    .row a img{
+        padding-bottom: 5px;
+    }
+
+}
+#vacancy-details h4{
+    border-bottom: solid 3px #ff9969;
+    color: #ff9969;
+    padding: 10px;
+    font-size: 20px;
+}
+@media (max-width: 440px){
+    #vacancy-details h4{
+        font-size: 16px;
+    }
+}
+#vacancy-details header{
+    color: #0277bd;
+    padding: 10px;
+    font-weight: 800;
+    font-size: 18px;
+}
+#vacancy-details content{
+    padding: 15px;
+    font-size: 15px;
+    font-weight: 400;
+}
+#vacancy-details small{
+    font-size: 14px;
+    padding: 10px;
+    color: #ff9969;
+}
+#vacancy-details p{
+    padding-left: 10px;
+    maragin: 15px;
+    font-size: 16px;
+}
+#vacancy-details a.btn{
+    margin-top: -7px;
+    height: 35px;
+    box-shadow: none;
+    background: teal;
+}
+#vacancy-details a.btn:hover{
+    background: teal;
+}
+@media (min-width: 320px) and (max-width: 440px){
+    #vacancy-details a.btn{
+        margin-top: -5px;
+        height: 35px;
+        box-shadow: none;
+        background: teal;
+        font-size: 11px;
+        width: 137px;
+    }
+}
+#link.row a.right{
+    margin-top: 10px;
+    font-size: 16px;
+    color: #ff9969;
+
+}
+#ads a img.responsive-img{
+    margin-top: 1.21rem;
+    margin-left: auto;
+    margin-right: auto;
+}

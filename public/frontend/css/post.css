@@ -1,0 +1,17 @@
+@media (max-width: 600px) {
+    .row a img{
+        padding-bottom: 5px;
+    }
+
+}
+.row h4{
+    border-bottom: solid 3px #ff9969;
+    color: #ff9969;
+    padding: 10px;
+    font-size: 20px;
+}
+#ads a img.responsive-img{
+    margin-top: 1.21rem;
+    margin-left: auto;
+    margin-right: auto;
+}

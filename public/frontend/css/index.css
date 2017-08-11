@@ -1,0 +1,176 @@
+@media (min-width: 320px) and (max-width: 570px){
+    .row a img{
+        height: 50px;
+
+    }
+}
+/*======================= Stylesheets For Content Linking tabs starts here ==================================*/
+
+.row .tabs{
+    background: #fafafa;
+}
+.row .tabs .tab a.active{
+    color: #ff9969;
+    font-weight: 600;
+    font-size: 15px;
+    background: #fafafa;
+
+}
+.row .tabs .tab a{
+    color: #ff9969;
+    font-weight: 600;
+    font-size: 15px;
+    background: #fafafa;
+}
+.row .tabs .tab a:hover{
+    color: #ff9969;
+    font-weight: 700;
+    font-size: 15px;
+}
+.row .tabs .indicator{
+    background-color: #ff9969 !important;
+    height: 3px;
+}
+@media (min-width: 320px) and (max-width: 480px){
+    .row .tabs .tab a.active{
+        font-size: 11px;
+
+    }
+    .row .tabs .tab a{
+        font-size: 11px;
+    }
+    .row .tabs .tab a:hover{
+        color: #ff9969;
+        font-size: 11px;
+    }
+    .row .tabs .indicator{
+        height: 2px;
+    }
+}
+
+p a{
+    color: #ff9969;
+    font-weight: 500;
+}
+/*================== Stylesheets for article content ==================*/
+.row #article small{
+    margin-left: 10px;
+    font-size: 14px;
+}
+.row #article small a{
+    font-size: 14px;
+    color: #ff9969;
+}
+.row #article h5{
+    font-size: 18px;
+    color: #0277bd;
+}
+.row #article p{
+    font-style: justify-all;
+    font-size: 16px;
+    margin-top: auto;
+}
+
+/*================== Stylesheets for News content ==================*/
+.row #news small{
+    margin-left: 10px;
+    font-size: 14px;
+}
+.row #news small a{
+    color: #ff9969;
+    font-size: 14px;
+}
+.row #news h5{
+    font-size: 18px;
+    color: #0277bd;
+}
+.row #news p{
+    font-style: justify-all;
+    font-size: 16px;
+    margin-top: auto;
+}
+
+/*================== Stylesheets for Forum content ==================*/
+.row #forum small{
+    margin-left: 10px;
+    font-size: 14px;
+}
+.row #forum small a{
+    color: #ff9969;
+    font-size: 14px;
+}
+.row #forum h5{
+    font-size: 18px;
+    color: #0277bd;
+}
+.row #forum p{
+    font-style: justify-all;
+    font-size: 16px;
+    margin-top: auto;
+}
+
+/*================== Stylesheets for Expert content ==================*/
+.row #expert small{
+    margin-left: 10px;
+    font-size: 14px;
+}
+.row #expert small a{
+    color: #ff9969;
+    font-size: 14px;
+}
+.row #expert h5{
+    font-size: 18px;
+}
+.row #expert p{
+    font-style: justify-all;
+    font-size: 16px;
+    margin-top: auto;
+}
+
+/*======================= Stylesheets For Content Linking tabs ends here ==================================*/
+
+
+/*====================================== Stylesheet for Module ================================== */
+
+.row .module{
+    background: #fafafa;
+    min-height: 640px;
+    margin-left: -11px;
+}
+.row .module h5{
+    color: #ff9969;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 18px;
+    border-bottom: solid 3px #ff9969;
+}
+.row .module ul{
+    padding-left:10px;
+    list-style-position: outside;
+    line-height:26px;
+}
+.row .module ul li{
+    list-style-type:none !important;
+}
+.row .module i.material-icons{
+    font-size: 18px;
+}
+.row .module ul li a{
+    color: #263238;
+    font-size: 16px;
+
+}
+.row .module .card-action{
+    clear: both;
+    font-size: 16px;
+    margin: 8px;
+}
+/*================================================ Module ends ======================================*/
+
+/*==================================== Stylesheet for banner ==============================*/
+.container-fluid img{
+    height: 100px;
+    width: 100%;
+}
+
+/*==================================== Stylesheet for banner ends ==============================*/

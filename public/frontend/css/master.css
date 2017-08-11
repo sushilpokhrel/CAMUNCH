@@ -1,0 +1,112 @@
+/*---------------Body overrides---------------------------*/
+body{
+    background: #ffffff;
+}
+/*---------------------End of Body overrides---------------------*/
+
+/*--------------------Start of navbar style---------------------*/
+nav{
+    background: #0277bd;
+}
+.logo{
+    padding-left: 20px;
+}
+nav ul li a{
+    color:aliceblue;
+    font-weight: 700;
+    font-size: 18px;
+}
+nav ul li a:hover{
+    background-color:teal !important;
+}
+nav ul li a:active{
+    background-color:teal !important;
+}
+
+ #sidenav-overlay{
+    position: relative;
+}
+/*-------------------------navbar ends--------------------------*/
+
+/*-------------------------stylesheet for modal starts(login page/ registration)----------*/
+.modal{
+    /*opacity: -0.5;*/
+    z-index: 1;
+    background: #fafafa;
+    max-height: 89%;
+    overflow-y: hidden;
+}
+.modal .row h4{
+    padding: 10px;
+    color: #ff9969;
+    border-bottom: solid 3px #ff9969;
+    font-size: 20px;
+}
+/*---------------------------------modal ends-----------------------*/
+
+/*!*----------------- Frontend index parallax---------------------------*/
+.parallax-container {
+    height: 500px;
+}
+.parallax-container img{
+    color: blue;
+    opacity: 0.3;
+}
+.parallax-container .welcome-text{
+    position: relative;
+    text-align: center;
+    top:250px;
+}
+.parallax-container .welcome-text h1{
+    color:teal;
+}
+/*---------------------------End Parallax-------------------------*/
+
+/*-------------------- Stylesheets for card------------------------- */
+
+.card{
+    background: #ffffff;
+    margin-top: 11px;
+}
+/*.container-fluid #article2.card{
+    background: #ffffff;
+
+}*/
+/*----------------------------- Card ends-------------------------------- */
+
+/*----------------------------- Login model stylesheets ---------------*/
+.row small{
+    font-size: 16px;
+    font-weight: 500;
+}
+.row small a{
+    color: teal;
+}
+
+
+
+/*----------------------stylesheet for footer-------------------------*/
+.page-footer{
+    background: #0277bd;
+}
+.page-footer .footer-copyright{
+    background: #0277bd;
+    color: aliceblue;
+
+}
+.row ul a{
+    font-size: 20px;
+    font-weight: 500;
+    color: aliceblue;
+}
+form{
+    background: #fafafa;
+}
+form .row h4{
+    color: #ff9969;
+}
+
+/*----------------------------footer ends--------------------------*/
+
+
+
